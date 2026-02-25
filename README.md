@@ -44,7 +44,8 @@ API Summary
 - GET /api/expenses/dashboard?month=YYYY-MM - Dashboard data
 - GET /api/vendor-rules - List vendor-category rules
 - POST /api/vendor-rules - Add/update vendor rule
-Assumptions
+<br/>
+Assumptions :- <br/>
 If vendor is not found in rules, category defaults to OTHER.
 CSV contains valid headers: date,amount,vendorName,description.
 Anomaly threshold is based on category average across stored records.
