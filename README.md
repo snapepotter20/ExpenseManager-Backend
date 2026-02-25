@@ -23,14 +23,16 @@ Run in PostgreSQL:
 
 ```sql
 CREATE DATABASE expense_manager;
+```
 
-3. Configure DB Credentials
+### 3. Configure DB Credentials
 Update application.properties if needed:
 
 spring.datasource.url=jdbc:postgresql://localhost:5432/expense_manager
 spring.datasource.username=postgres
 spring.datasource.password=postgres
-4. Run Backend
+
+### 4. Run Backend
 cd backend
 mvn spring-boot:run
 Backend starts on: http://localhost:8080
