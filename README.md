@@ -38,12 +38,12 @@ mvn spring-boot:run
 Backend starts on: http://localhost:8080
 
 API Summary
-POST /api/expenses - Add single expense
-POST /api/expenses/upload - Upload CSV (date,amount,vendorName,description)
-GET /api/expenses - List all expenses
-GET /api/expenses/dashboard?month=YYYY-MM - Dashboard data
-GET /api/vendor-rules - List vendor-category rules
-POST /api/vendor-rules - Add/update vendor rule
+- POST /api/expenses - Add single expense
+- POST /api/expenses/upload - Upload CSV (date,amount,vendorName,description)
+- GET /api/expenses - List all expenses
+- GET /api/expenses/dashboard?month=YYYY-MM - Dashboard data
+- GET /api/vendor-rules - List vendor-category rules
+- POST /api/vendor-rules - Add/update vendor rule
 Assumptions
 If vendor is not found in rules, category defaults to OTHER.
 CSV contains valid headers: date,amount,vendorName,description.
